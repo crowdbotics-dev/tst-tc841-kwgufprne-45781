@@ -3,6 +3,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'BlazeForm', 'url': 'http://pypi.python.org/pypi/BlazeForm/0.4.1'},
 	{'name':'blaze', 'url': 'http://pypi.python.org/pypi/blaze/0.10.1'},
 	{'name':'BlazeWeb', 'url': 'http://pypi.python.org/pypi/BlazeWeb/0.5.2'},
 	{'name':'django-allauth', 'url': 'https://pypi.org/project/django-allauth/0.38.0/'},
